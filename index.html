@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <!-- Favicon Linked Below -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+  <!-- Title -->
+  <title>Frontend Mentor | Age calculator app</title>
+  <!-- Stylesheet Linked -->
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- START OF MAIN PAGE CONTENT -->
+    <div class="container">
+      <form class="user_inputs">
+        <div class="date">
+          <h6>Day</h6>
+          <input type="number" placeholder="DD" id="day">
+          <small id="error_day"></small>
+        </div>
+        <div class="date">
+          <h6>Month</h6>
+          <input type="number" placeholder="MM" id="month" class="error">
+          <small id="error_month"></small>
+        </div>
+        <div class="date">
+          <h6>Year</h6>
+          <input type="number" placeholder="YYYY" id="year">
+          <small id="error_year"></small>
+        </div>
+      </form>
+      <div class="arrow_line" id="arrow_line">
+        <hr >
+      </div>
+      <div class="results">
+        <p><span id="years">-- </span>years</p>
+        <p><span id="months">-- </span>months</p>
+        <p><span id="days">-- </span>days</p>
+      </div>
+    </div>  
+    <!-- END OF MAIN PAGE CONTENT -->  
+  <!-- START OF MAIN FOOTER CONTENT -->
+  <footer class="attribution">
+    <p>
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" 
+      target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="www.upandstarttechnologies.com">Adnan Hamisi</a>
+    </p>
+  </footer>
+  <!-- END OF MAIN FOOTER CONTENT -->
+  <script src="./app.js"></script>
+</body>
+</html>
