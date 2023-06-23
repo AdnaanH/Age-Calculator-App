@@ -28,21 +28,21 @@ function calculateAge() {
   let isValid = true;
 
   if (isNaN(day) || day < 1 || day > 31) {
-    errorDay.textContent = 'Invalid day';
+    errorDay.textContent = 'Must be a valid day';
     isValid = false;
   } else {
     errorDay.textContent = '';
   }
 
   if (isNaN(month) || month < 1 || month > 12) {
-    errorMonth.textContent = 'Invalid month';
+    errorMonth.textContent = 'Must be a valid month';
     isValid = false;
   } else {
     errorMonth.textContent = '';
   }
 
   if (isNaN(year) || year > currentYear) {
-    errorYear.textContent = 'Invalid year';
+    errorYear.textContent = 'Must be a valid year';
     isValid = false;
   } else {
     errorYear.textContent = '';
